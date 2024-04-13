@@ -42,12 +42,11 @@ Example Connection String:
 ```
 mongodb://admin:password123@localhost:27017/mydatabase
 ```
-# Username: admin
-# Password: password123
-# Hostname: localhost
-# Port: 27017
-# Database Name: mydatabase
-
+### Username: admin
+### Password: password123
+### Hostname: localhost
+### Port: 27017
+### Database Name: mydatabase
 ## Initial Setup
 ### Starting the MongoDB Server
 ```
