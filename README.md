@@ -32,7 +32,7 @@ To get started with the Ecommerce API project, follow these steps:
 
 ## Documentation
 
-For detailed documentation on using the Ecommerce API, refer to the [API Documentation](link-to-documentation).
+For detailed documentation on using the Ecommerce API, refer to the [API Documentation](https://github.com/mirajsankdecha/API-Testing/blob/main/Refrences/Mongo/Documentation.md).
 
 ## Contributing
 
