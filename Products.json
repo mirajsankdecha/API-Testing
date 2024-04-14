@@ -1,0 +1,26 @@
+[
+    {
+        "name" : "Iphone XR",
+        "price" : 18000,
+        "feature" : true,
+        "company" : "Apple"
+    },
+    {
+        "name" : "Iphone 11",
+        "price" : 25000,
+        "feature" : true,
+        "company" : "Apple"
+    },
+    {
+        "name" : "Iphone 12",
+        "price" : 35000,
+        "feature" : true,
+        "company" : "Apple"
+    },
+    {
+        "name" : "Iphone 13",
+        "price" : 45000,
+        "feature" : true,
+        "company" : "Apple"
+    }
+]

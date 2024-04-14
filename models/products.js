@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const productSchema = new mongoose.Schema({
     name: {
-        type: string,
+        type: String,
         required : [true, "Product name is required"],
     },
     price: {
@@ -19,7 +19,7 @@ const productSchema = new mongoose.Schema({
     },
     createdAt: {
         type: Date,
-        default : Data.now(),
+        default : Date.now(),
     },
     company: {
         type: String,
