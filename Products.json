@@ -22,5 +22,131 @@
         "price" : 45000,
         "feature" : true,
         "company" : "Apple"
+    },
+    {
+        "name" : "Iphone 14",
+        "price" : 60000,
+        "feature" : true,
+        "company" : "Apple"
+    },
+    {
+        "name": "Lenovo ThinkPad E14",
+        "price": 45000,
+        "feature": true,
+        "company": "Lenovo"
+    },
+    {
+        "name": "Lenovo IdeaPad Slim 3i",
+        "price": 35000,
+        "feature": true,
+        "company": "Lenovo"
+    },
+    {
+        "name": "Lenovo Legion Y540",
+        "price": 55000,
+        "feature": true,
+        "company": "Lenovo"
+    },
+    {
+        "name": "Lenovo Yoga Slim 7",
+        "price": 60000,
+        "feature": true,
+        "company": "Lenovo"
+    },
+    {
+        "name": "Lenovo ThinkBook Plus",
+        "price": 70000,
+        "feature": true,
+        "company": "Lenovo"
+    },
+    {
+        "name": "Asus ROG Strix G15",
+        "price": 55000,
+        "feature": true,
+        "company": "Asus"
+    },
+    {
+        "name": "Asus ZenBook Duo",
+        "price": 65000,
+        "feature": true,
+        "company": "Asus"
+    },
+    {
+        "name": "Asus TUF Gaming A15",
+        "price": 50000,
+        "feature": true,
+        "company": "Asus"
+    },
+    {
+        "name": "Asus VivoBook 15",
+        "price": 40000,
+        "feature": true,
+        "company": "Asus"
+    },
+    {
+        "name": "Asus ROG Zephyrus G14",
+        "price": 75000,
+        "feature": true,
+        "company": "Asus"
+    },
+    {
+        "name": "Dell Inspiron 15 3000",
+        "price": 40000,
+        "feature": true,
+        "company": "Dell"
+    },
+    {
+        "name": "Dell XPS 13",
+        "price": 80000,
+        "feature": true,
+        "company": "Dell"
+    },
+    {
+        "name": "Dell G3 15",
+        "price": 55000,
+        "feature": true,
+        "company": "Dell"
+    },
+    {
+        "name": "Dell Latitude 3410",
+        "price": 60000,
+        "feature": true,
+        "company": "Dell"
+    },
+    {
+        "name": "Dell Alienware m15 R3",
+        "price": 120000,
+        "feature": true,
+        "company": "Dell"
+    },
+    {
+        "name": "HP Pavilion Gaming 15",
+        "price": 60000,
+        "feature": true,
+        "company": "HP"
+    },
+    {
+        "name": "HP Omen 15",
+        "price": 75000,
+        "feature": true,
+        "company": "HP"
+    },
+    {
+        "name": "HP Spectre x360",
+        "price": 90000,
+        "feature": true,
+        "company": "HP"
+    },
+    {
+        "name": "HP Envy 13",
+        "price": 65000,
+        "feature": true,
+        "company": "HP"
+    },
+    {
+        "name": "HP Elite Dragonfly",
+        "price": 120000,
+        "feature": true,
+        "company": "HP"
     }
 ]
