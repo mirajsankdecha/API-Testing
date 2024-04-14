@@ -13,6 +13,10 @@
 
 - MongoDB databases are similar to SQL databases. They are logical containers for collections of documents.
 
+### Schema:
+
+- Schema in databases refers to the structure or blueprint defining how data is organized. In MongoDB, it outlines the expected structure of documents within a collection, offering flexibility with dynamic schemas. In SQL databases, schema defines table structures, enforcing strict rules for data organization.
+
 ### Collection:
 
 - In MongoDB, a collection is equivalent to a table in SQL. It's a group of documents that may or may not share a schema.
@@ -29,6 +33,31 @@
 
 - In MongoDB, documents are composed of key-value pairs, where the key is the field name and the value is the data associated with that field.
 
+### Example : 
+```
+{
+  "database": "ecommerce", // Database: A place where all our data is stored, like a warehouse.
+  "schema": {
+    "products": [ // Collection: A group of similar items, like a box of smartphones.
+      {
+        "_id": ObjectId("6092ae1e6d5d76178485d9b9"), // Document: An individual item, like a specific smartphone in the box.
+        "name": "Smartphone", // Field: Different attributes of the item, like its name.
+        "brand": "Samsung",
+        "price": 800,
+        "specs": { // Nested Document: More detailed attributes, like the smartphone's specifications.
+          "display": "6.7-inch Super AMOLED",
+          "camera": "Triple camera setup",
+          "storage": "128GB"
+        }
+      },
+      {
+        // Another smartphone document in the "products" collection.
+      }
+    ]
+  }
+}
+
+```
 
 Example Connection String:
 
