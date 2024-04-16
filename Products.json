@@ -2,7 +2,7 @@
     {
         "name" : "Iphone XR",
         "price" : 18000,
-        "feature" : true,
+        "feature" : false,
         "company" : "Apple"
     },
     {
@@ -38,7 +38,7 @@
     {
         "name": "Lenovo IdeaPad Slim 3i",
         "price": 35000,
-        "feature": true,
+        "feature": false,
         "company": "Lenovo"
     },
     {
