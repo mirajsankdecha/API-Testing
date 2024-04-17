@@ -1,17 +1,24 @@
 const Product = require("../models/products");
 const getAllProducts = async (req, res) => {
-  const { company , name , featured } = req.query;
+  const { company, name, featured, sort } = req.query;
   const queryObject = {};
   if (company) {
     queryObject.company = company;
   }
   if (name) {
-    queryObject.name = { $regex: name, $options: "i"}; 
+    queryObject.name = { $regex: name, $options: "i" };
   }
   if (featured) {
     queryObject.featured = featured;
   }
-  const Data = await Product.find(queryObject);
+  let apiData = Product.find(queryObject);
+
+  if (sort) {
+    let sortFix = sort.replace(",", " ");
+    apiData = apiData.sort(sortFix);
+  }
+
+  const Data = await apiData;
   res.status(200).json({ Data });
 };
 
