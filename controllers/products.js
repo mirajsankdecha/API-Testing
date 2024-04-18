@@ -19,7 +19,7 @@ const getAllProducts = async (req, res) => {
   }
   
   if (select) {
-    let selectFix = select.replace(",", " ");
+    let selectFix = select.split(",").join(" ");
     apiData = apiData.select(selectFix);
   }
 
