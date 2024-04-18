@@ -23,7 +23,7 @@ const getAllProducts = async (req, res) => {
 };
 
 const getAllProductsTesting = async (req, res) => {
-  const Data = await Product.find(req.query).sort("name");
+  const Data = await Product.find(req.query).select("name");
   console.log("Products are fetched successfully", req.query);
   res.status(200).json({ Data });
 };
